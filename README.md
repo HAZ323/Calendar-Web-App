@@ -39,9 +39,11 @@ Create a views folder in your project and put a single file inside it named cale
 Edit the app.js script to create an express router for the path /calendar which will get the parameters month and year from the query string and pass them to a function that will create a calendar and send it to the browser by rendering the calendar view/template and sending it the month/year header string and the &lt;tr&gt; rows for the calendar body. You may (should) create the calendar function by copying the code from the calendar.js example and altering it to create an html calendar like the one shown shown and described above. If the user of the calendar app doesn&#39;t specify a month and year then use the current month. For example:
 
 localhost:3000/calendar/month=10&amp;year=2022
+
 should display a calendar for October, 2022
 
 localhost:3000/calendar
+
 should display a calendar for the current month.
 
 Edit the four arrow links (&lt;a&gt; tags )in the header of the calendar to
