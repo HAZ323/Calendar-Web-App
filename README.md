@@ -1,7 +1,7 @@
 # Homework Assignment 4 - Calendar Web App
 
-Author:
-Email:
+- Author:
+- Email:
 
 ### CSE 264 – Web Systems Programming,
 
